@@ -29,6 +29,19 @@ h1 {
   margin-bottom: 1rem;
 }
 
+.button-group {
+  display: inline-flex;
+  gap: 0.6rem;
+}
+
+.button-secondary {
+  background: #6b7280;
+}
+
+.button-secondary:hover {
+  background: #4b5563;
+}
+
 button {
   border: none;
   border-radius: 8px;
